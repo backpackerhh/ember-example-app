@@ -37,3 +37,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'haml-rails'
+
+gem 'ember-rails'
+gem 'ember-source'
+gem 'emblem-rails'
