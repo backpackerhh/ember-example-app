@@ -24,6 +24,7 @@ unless isEditing
       br
       view Ember.TextArea value=notes
     p
+      a.delete href='#' click="delete" delete
       input type='submit' value='Save Changes' click='saveChanges'
       if showUnsavedMessage
         .unsaved Unsaved changes
