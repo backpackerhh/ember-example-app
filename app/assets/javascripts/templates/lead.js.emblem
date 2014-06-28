@@ -1,23 +1,23 @@
 article#lead
-  h1= model.fullName
+  h1= fullName
 
   p
     ' Name:
-    model.fullName
+    fullName
   p
     ' Email:
-    model.email
+    email
   p
     ' Phone:
-    model.phone
+    phone
   p
     label Status:
     '
-    view Ember.Select content=App.Lead.STATUSES value=model.status
+    view Ember.Select content=App.Lead.STATUSES value=status
   p
     label Notes:
     br
-    view Ember.TextArea value=model.notes
+    view Ember.TextArea value=notes
   p
     input type='submit' value='Save Changes' click='saveChanges'
     if showUnsavedMessage
