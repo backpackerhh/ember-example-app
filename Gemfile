@@ -43,3 +43,5 @@ gem 'ember-source'
 gem 'emblem-rails'
 
 gem 'ffaker'
+
+gem 'puma', group: :development
