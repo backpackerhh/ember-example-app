@@ -45,3 +45,5 @@ gem 'emblem-rails'
 gem 'ffaker'
 
 gem 'puma', group: :development
+
+gem 'rails_12factor', group: :production
